@@ -20,7 +20,7 @@ app.use(express.json())
 const dalxiisModel = require ("./modal/dalxiisModel")
 
 //isku jirka mongooseka
-mongoose.connect("mongodb://localhost:27017/Tourism").then(()=>{
+mongoose.connect("mongodb+srv://Hassan:KAkzGdlknyQTa9le@cluster0.xfh2pae.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(()=>{
     console.log("database ki waa laxareyyey ")
 }).catch((err)=>{
     console.log(err)
